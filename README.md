@@ -33,17 +33,12 @@ Imutabilidade: Haskell não permite modificar variáveis diretamente; novos valo
  * https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/53_funcoes_puras.html (funcoes puras)
 
 
-Com certeza! Para um README de GitHub, o segredo é usar uma estrutura clara, ícones (emojis) para dar personalidade e blocos de código ou citações para destacar conceitos técnicos.
-Aqui está uma proposta de organização para o seu arquivo README.md:
- Efeitos Colaterais e Imutabilidade em Haskell
-Repositório destinado à apresentação do 1º Bimestre de 2026 sobre os fundamentos da programação funcional, com foco em efeitos colaterais, pureza e o comportamento da linguagem Haskell.
 Efeitos Colaterais (Side Effects)
 Um efeito colateral ocorre quando a ação de uma função vai além do seu efeito primário (retornar um valor), alterando o estado do sistema ou a saída do programa de forma externa ao seu escopo imediato.
 Exemplos Comuns:
  * Variáveis Globais: Alterações de valores fora do escopo local.
  * Ponteiros: Funções que modificam diretamente o valor alocado na memória.
  * Operadores de Incremento/Decremento: Alteração direta do valor da variável original.
-> [!CAUTION]
 > Desvantagem Percebida: Programas com efeitos colaterais tornam o comportamento do código dependente da ordem de execução. Isso dificulta a previsão do estado da variável em diferentes momentos do programa.
 > 
 Haskell e as Funções Puras
@@ -69,9 +64,4 @@ Referências
  * Side Effect - Wikipedia (PT-BR)
  * Paradigmas de Programação: Efeitos Colaterais
  * Paradigmas de Programação: Funções Puras
-Sofia Tonetto | 2026
-Dicas para o GitHub:
- * Nome do arquivo: Salve exatamente como README.md na raiz do seu projeto.
- * Visualização: O GitHub interpretará automaticamente as tags como [!CAUTION] para criar alertas coloridos e bonitos.
-Gostaria que eu criasse um exemplo prático de código em Haskell mostrando a diferença entre uma função pura e uma com IO para você adicionar ao README?
 
