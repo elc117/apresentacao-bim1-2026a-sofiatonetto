@@ -2,6 +2,7 @@
 apresentacao-bim1-2026a-sofiatonetto created by GitHub Classroom
 
 Efeitos Colaterais:
+
 Quando a ação observada vai além do seu "efeito primário" -> ler e ou retornar um valor, alterando a saída programa sem ser pelo seu retorno.
 Exemplos de efeitos colaterais: 
  * O mais comum deles, atribuição de variáveis globais, pois são alteradas fora do escopo.
