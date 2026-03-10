@@ -3,10 +3,11 @@ apresentacao-bim1-2026a-sofiatonetto created by GitHub Classroom
 
 Efeitos Colaterais
 Quando a ação observada vai além do seu "efeito primário" -> ler e ou retornar um valor, alterando a saída programa sem ser pelo seu retorno.
-Exemplos de efeitos colaterais: * O mais comum deles, atribuição de variáveis globais, pois são alteradas fora do escopo.
+Exemplos de efeitos colaterais: 
+ * O mais comum deles, atribuição de variáveis globais, pois são alteradas fora do escopo.
  * Uso de ponteiros: permitindo que a função altere o valor na memória.
  * Uso de operadores de Incremento ou Decremento: alteram o valor da variável.
-> "Desvantagem Percebida": programas com efeitos colaterais faz com que o comportamento do código passa a depender da ordem de execução daquele programa, pois o valor de uma variável que está sendo usado pode ser modificado por uma função, por exemplo.
+> "Desvantagem Percebida": programas com efeitos colaterais fazem com que o comportamento do código passa a depender da ordem de execução daquele programa, pois o valor de uma variável que está sendo usada pode ser modificado por uma função, por exemplo.
 > 
 Haskell e os efeitos colaterais:
 Antes de entender isso precisei pesquisar mais sobre funções puras --> são livres de efeitos colaterais. Linguagens puramente funcionais permitem apenas o uso de 'funções puras'.
