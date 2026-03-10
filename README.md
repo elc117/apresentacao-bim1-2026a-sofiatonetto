@@ -31,3 +31,47 @@ Imutabilidade: Haskell não permite modificar variáveis diretamente; novos valo
  * https://en-wikipedia-org.translate.goog/wiki/Side_effect_(computer_science)?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge#:~:text=Realiza%C3%A7%C3%A3o%20de%20E/S.,MIT%20Press%20.(efeitos colaterais)
  * https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/52_efeitos_colaterais.html (efeitos colaterais)
  * https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/53_funcoes_puras.html (funcoes puras)
+
+
+Com certeza! Para um README de GitHub, o segredo é usar uma estrutura clara, ícones (emojis) para dar personalidade e blocos de código ou citações para destacar conceitos técnicos.
+Aqui está uma proposta de organização para o seu arquivo README.md:
+ Efeitos Colaterais e Imutabilidade em Haskell
+Repositório destinado à apresentação do 1º Bimestre de 2026 sobre os fundamentos da programação funcional, com foco em efeitos colaterais, pureza e o comportamento da linguagem Haskell.
+Efeitos Colaterais (Side Effects)
+Um efeito colateral ocorre quando a ação de uma função vai além do seu efeito primário (retornar um valor), alterando o estado do sistema ou a saída do programa de forma externa ao seu escopo imediato.
+Exemplos Comuns:
+ * Variáveis Globais: Alterações de valores fora do escopo local.
+ * Ponteiros: Funções que modificam diretamente o valor alocado na memória.
+ * Operadores de Incremento/Decremento: Alteração direta do valor da variável original.
+> [!CAUTION]
+> Desvantagem Percebida: Programas com efeitos colaterais tornam o comportamento do código dependente da ordem de execução. Isso dificulta a previsão do estado da variável em diferentes momentos do programa.
+> 
+Haskell e as Funções Puras
+Para entender como Haskell lida com isso, é necessário compreender o conceito de Funções Puras, que são a base das linguagens puramente funcionais.
+Propriedades das Funções Puras:
+ * Determinismo: A função sempre retorna a mesma saída para a mesma entrada.
+ * Transparência Referencial: Se o resultado não é usado, a chamada pode ser removida sem afetar o programa.
+ * Paralelismo: Facilita o processamento paralelo, pois não há dependência de dados entre funções independentes.
+O papel das Mônadas
+Haskell elimina efeitos colaterais em funções comuns, mas utiliza Mônadas para gerenciar interações necessárias com o "mundo real" de forma controlada e pura.
+ * IO: Entrada e saída (leitura de arquivos, terminal).
+ * Maybe: Gerenciamento de falhas ou retornos nulos.
+ * List: Lida com múltiplos resultados possíveis.
+Imutabilidade
+A imutabilidade é o pilar que garante que, uma vez criado, um valor nunca seja modificado. Se você precisa de um "novo estado", você cria um novo dado em vez de alterar o antigo.
+Vantagens da Imutabilidade:
+| Vantagem | Descrição |
+|---|---|
+| Previsibilidade | Evita efeitos colaterais inesperados. |
+| Debug Facilitado | Como os dados não mudam, é mais fácil rastrear o fluxo da informação. |
+| Segurança | Reduz erros comuns em sistemas complexos e concorrentes. |
+Referências
+ * Side Effect - Wikipedia (PT-BR)
+ * Paradigmas de Programação: Efeitos Colaterais
+ * Paradigmas de Programação: Funções Puras
+Sofia Tonetto | 2026
+Dicas para o GitHub:
+ * Nome do arquivo: Salve exatamente como README.md na raiz do seu projeto.
+ * Visualização: O GitHub interpretará automaticamente as tags como [!CAUTION] para criar alertas coloridos e bonitos.
+Gostaria que eu criasse um exemplo prático de código em Haskell mostrando a diferença entre uma função pura e uma com IO para você adicionar ao README?
+
