@@ -18,10 +18,8 @@ Antes de entender isso precisei pesquisar mais sobre funções puras --> são li
                 
 Sobre a relação entre Haskell e os efeitos colaterais: 
                       todas suas funções são puras, pois tenta eliminar os efeitos colaterais
-                      Porém existe algo chamado "Mônada" --> é uma estrutura algébrica que encapsula ações 
-                       estrutura algébrica que encapsula valores em um contexto (como IO, Maybe ou List), permitindo compor computações sequenciais enquanto lida com efeitos colaterais de forma pura
- A mônada IO encapsula ações de efeitos colaterais. Ela descreve o que deve ser feito sem executá-lo imediatamente, funcionando quase como uma receita.
-Execução: O sistema de tempo de execução do Haskell (main) executa as ações IO de forma controlada.
+                      Porém existe algo chamado "Mônada" --> é uma estrutura algébrica que encapsula ações (como IO (entrada e saída, como ler arquivos e imprimir no terminal) , Maybe (usado para computações que podem falhar ou retornos nulos) e List (quando uma função pode retornar múltiplos resultados) ao mesmo tempo que lida com os efeitos colaterais disso de forma pura. 
+                       
 Imutabilidade: Haskell não permite modificar variáveis diretamente; novos valores são criados em vez de alterar os antigos.
     
  Referências: 
