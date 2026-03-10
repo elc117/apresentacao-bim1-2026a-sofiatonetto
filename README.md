@@ -2,7 +2,7 @@
 apresentacao-bim1-2026a-sofiatonetto created by GitHub Classroom
 
 Efeitos Colaterais 
-  Qaundo a ação observada vai além do seu "efeito primário" -> ler e ou retornr um valor, alterando a saída programa sem ser pelo seu retorno. 
+  Quando a ação observada vai além do seu "efeito primário" -> ler e ou retornr um valor, alterando a saída programa sem ser pelo seu retorno. 
   Exemplos de efeitos colaterais: 
     * O mais comum deles, atribuição de variáveis globais, pois são alteradas fora do escopo.
     * Uso de ponteiros: permitindo que a função altere o valor na memória.
@@ -20,7 +20,10 @@ Sobre a relação entre Haskell e os efeitos colaterais:
                       todas suas funções são puras, pois tenta eliminar os efeitos colaterais
                       Porém existe algo chamado "Mônada" --> é uma estrutura algébrica que encapsula ações (como IO (entrada e saída, como ler arquivos e imprimir no terminal) , Maybe (usado para computações que podem falhar ou retornos nulos) e List (quando uma função pode retornar múltiplos resultados) ao mesmo tempo que lida com os efeitos colaterais disso de forma pura. 
 
-Dados Imutáveis:
+Dados Imutáveis ou Imutabilidade: fundamental para programação funcional, garante que, depois de criados, os valores não podem ser modificados mais. Quando precisa alterar o estado, não deve ser alterado seu valor nunca, mas criado um. 
+Suas vantagens:
+  *evita efeitos colaterais ja que uma vez que seus dados são criados, seus valores não podem ser alterados; 
+  *facilita entendimento e debug do código: pelo fato de não permitir mudança nos dados, é mais fácil de entender como os dados sao utlizados e onde, facilitando qualquer manutenção necessária.
 
 Imutabilidade: Haskell não permite modificar variáveis diretamente; novos valores são criados em vez de alterar os antigos.
     
