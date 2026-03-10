@@ -2,8 +2,8 @@
 apresentacao-bim1-2026a-sofiatonetto created by GitHub Classroom
 
 <b>Efeitos Colaterais:<b>  
-Quando a ação observada vai além do seu "efeito primário" -> ler e ou retornar um valor, alterando a saída programa sem ser pelo seu retorno.
-Exemplos de efeitos colaterais: 
+   Quando a ação observada vai além do seu "efeito primário" -> ler e ou retornar um valor, alterando a saída programa sem ser pelo seu retorno.
+<u>Exemplos de efeitos colaterais:<u> 
  * O mais comum deles, <u>atribuição de variáveis globais<u>, pois são alteradas fora do escopo.
  * <u>Uso de ponteiros<u>: permitindo que a função altere o valor na memória.
  * <u>Uso de operadores de Incremento ou Decremento<u>: alteram o valor da variável.
@@ -32,6 +32,6 @@ Fundamental para programação funcional, garante que, depois de criados, os val
 Imutabilidade: Haskell não permite modificar variáveis diretamente; novos valores são criados em vez de alterar os antigos.
 
 <b>Referências:<b>  
-     * [Side Effect (Wikipedia)](https://en-wikipedia-org.translate.goog/wiki/Side_effect_(computer_science)?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge#:~:text=Realiza%C3%A7%C3%A3o%20de%20E/S.,MIT%20Press%20.(efeitos%20colaterais))
-   * [Efeitos Colaterais - Leandro Moh](https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/52_efeitos_colaterais.html)
-    * [Funções Puras - Leandro Moh](https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/53_funcoes_puras.html)
+     *[Side Effect (Wikipedia)](https://en-wikipedia-org.translate.goog/wiki/Side_effect_(computer_science)?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge#:~:text=Realiza%C3%A7%C3%A3o%20de%20E/S.,MIT%20Press%20.(efeitos%20colaterais))  
+   *[Efeitos Colaterais - Leandro Moh](https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/52_efeitos_colaterais.html)  
+   *[Funções Puras - Leandro Moh](https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/53_funcoes_puras.html)
