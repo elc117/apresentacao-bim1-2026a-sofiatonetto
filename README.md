@@ -47,3 +47,4 @@ Fundamental para programação funcional, garante que, depois de criados, os val
    * [Funções Puras - Leandro Moh](https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/53_funcoes_puras.html)
    * [Dados Imutaveis](https://www.rocketseat.com.br/blog/artigos/post/introducao-aos-paradigmas-de-programacao)
    * [Dados Imutaveis](https://www.datacamp.com/pt/blog/introduction-to-programming-paradigms)
+   * [Imutabilidade](https://minacriativa.com.br/glossario/o-que-e-immutable-imutavel/)
