@@ -30,7 +30,7 @@ Fundamental para programação funcional, garante que, depois de criados, os val
 
 <b>Exemplos práticos</b>  
 <u>Exemplo 1:</u> a função escolhida foi a 1   
-![gif1.gif]
+![Funcao1 em Haskell - funcao pura](gif1.gif)
 
 <b>Referências:</b>  
    * [Side Effect (Wikipedia)](https://en-wikipedia-org.translate.goog/wiki/Side_effect_(computer_science)?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge#:~:text=Realiza%C3%A7%C3%A3o%20de%20E/S.,MIT%20Press%20.(efeitos%20colaterais))  
