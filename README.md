@@ -27,6 +27,7 @@ Fundamental para programação funcional, garante que, depois de criados, os val
 <u>Suas vantagens:</u>
  * Evita efeitos colaterais já que uma vez que seus dados são criados, seus valores não podem ser alterados;
  * Facilita entendimento e debug do código: pelo fato de não permitir mudança nos dados, é mais fácil de entender como os dados são utilizados e onde, facilitando qualquer manutenção necessária.
+   
 <u>Desafio:</u>
    * Desempenho, por criar novos objetos em vez de modificar objetos já existentes pode resultar em um uso maior de memória e processamento. Quando a performance é crítica, como em jogos ou aplicações em tempo real, pode-se optar por uma abordagem mista, utilizando objetos mutáveis em partes do código onde a performance é essencial, enquanto mantêm a imutabilidade em outras áreas para garantir segurança e previsibilidade.
 
