@@ -23,10 +23,12 @@ Todas suas funções são puras, pois tenta eliminar os efeitos colaterais.
 Porém existe algo chamado <u>"Mônada"</u> --> é uma estrutura algébrica que encapsula ações (como IO (entrada e saída, como ler arquivos e imprimir no terminal), Maybe (usado para computações que podem falhar ou retornos nulos) e List (quando uma função pode retornar múltiplos resultados) ao mesmo tempo que lida com os efeitos colaterais disso de forma pura.
 
 <b>Dados Imutáveis ou Imutabilidade:</b>  
-Fundamental para programação funcional, garante que, depois de criados, os valores não podem ser modificados mais. Quando precisa alterar o estado, não deve ser alterado seu valor nunca, mas criado um.
+Fundamental para programação funcional, garante que, depois de criados, os valores não possam ser modificados mais. Quando precisa alterar o estado, não deve ser alterado seu valor nunca, mas criado um, gravando nova versão de dados.
 <u>Suas vantagens:</u>
  * Evita efeitos colaterais já que uma vez que seus dados são criados, seus valores não podem ser alterados;
  * Facilita entendimento e debug do código: pelo fato de não permitir mudança nos dados, é mais fácil de entender como os dados são utilizados e onde, facilitando qualquer manutenção necessária.
+<u>Desafio:</u>
+   * Desempenho, por criar novos objetos em vez de modificar objetos já existentes pode resultar em um uso maior de memória e processamento. Quando a performance é crítica, como em jogos ou aplicações em tempo real, pode-se optar por uma abordagem mista, utilizando objetos mutáveis em partes do código onde a performance é essencial, enquanto mantêm a imutabilidade em outras áreas para garantir segurança e previsibilidade.
 
 <b>Exemplos práticos</b>  
 <u>Exemplo 1:</u> função 1 --> sem efeitos colaterais.  
