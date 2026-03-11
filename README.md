@@ -30,9 +30,9 @@ Fundamental para programação funcional, garante que, depois de criados, os val
 
 <b>Exemplos práticos</b>  
 <u>Exemplo 1:</u> a função escolhida foi a 1   
-      >int func1(int x) { 
-      >     return x + 4; 
-      >}
+      > int func1(int x) { 
+      >      return x + 4; 
+      > }
    parte pratica: que tratam de efeitos colaterais e dados imutáveis. Escolha 2 exemplos desta parte para executar e mostrar em pequenos GIFs animados ou vídeos, para ilustrar a parte teórica. Depois crie/gere 2 exemplos seus, com e sem efeitos colaterais, em uma ou mais linguagens à sua escolha, mostrando também a execução em GIFs. 
 
 <b>Referências:</b>  
