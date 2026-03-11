@@ -28,6 +28,11 @@ Fundamental para programação funcional, garante que, depois de criados, os val
  * Evita efeitos colaterais já que uma vez que seus dados são criados, seus valores não podem ser alterados;
  * Facilita entendimento e debug do código: pelo fato de não permitir mudança nos dados, é mais fácil de entender como os dados são utilizados e onde, facilitando qualquer manutenção necessária.
 
+<b>Exemplos práticos</b>  
+<u>Exemplo 1:</u> a função escolhida foi a 1   
+      >int func1(int x) { 
+      >     return x + 4; 
+      >}
    parte pratica: que tratam de efeitos colaterais e dados imutáveis. Escolha 2 exemplos desta parte para executar e mostrar em pequenos GIFs animados ou vídeos, para ilustrar a parte teórica. Depois crie/gere 2 exemplos seus, com e sem efeitos colaterais, em uma ou mais linguagens à sua escolha, mostrando também a execução em GIFs. 
 
 <b>Referências:</b>  
