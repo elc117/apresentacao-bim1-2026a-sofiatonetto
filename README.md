@@ -42,3 +42,4 @@ Fundamental para programação funcional, garante que, depois de criados, os val
    * [Side Effect (Wikipedia)](https://en-wikipedia-org.translate.goog/wiki/Side_effect_(computer_science)?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge#:~:text=Realiza%C3%A7%C3%A3o%20de%20E/S.,MIT%20Press%20.(efeitos%20colaterais))  
    * [Efeitos Colaterais - Leandro Moh](https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/52_efeitos_colaterais.html)  
    * [Funções Puras - Leandro Moh](https://leandromoh.gitbooks.io/tcc-paradigmas-de-programacao/content/5_paradigma_funcional/53_funcoes_puras.html)
+   * .[Dados Imutaveis](https://www.rocketseat.com.br/blog/artigos/post/introducao-aos-paradigmas-de-programacao)
