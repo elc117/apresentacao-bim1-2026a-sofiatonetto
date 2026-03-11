@@ -38,9 +38,8 @@ Fundamental para programação funcional, garante que, depois de criados, os val
 <u>Exemplo 1 criado por mim:</u> conversão de moeda    
 ![Funcao3 em Haskell](gif3.gif)   
   
-<u>Exemplo 2 criado por mim:</u> 
-
-
+<u>Exemplo 2 criado por mim:</u> uso de variáveis globais em Python  
+![Funcao3 em Haskell](gif4.gif)  
 
 <b>Referências:</b>  
    * [Side Effect (Wikipedia)](https://en-wikipedia-org.translate.goog/wiki/Side_effect_(computer_science)?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge#:~:text=Realiza%C3%A7%C3%A3o%20de%20E/S.,MIT%20Press%20.(efeitos%20colaterais))  
